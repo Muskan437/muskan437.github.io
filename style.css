@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+ul, ol {
+    list-style: none;
+    margin-left: 1rem;
+}
+/* Profile image styling */
+.profile-image {
+    width: 150px; /* Adjust size as needed */
+    height: 150px;
+    border-radius: 50%; /* Makes the image circular */
+    margin-bottom: 1rem;
+    display: block;
+}
